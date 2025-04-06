@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      background-color: #AC8969;
+      padding: 2rem;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .projects {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+      background-color: #AC8969;
+    }
+
+    .project-box {
+      background-color: #fff;
+      width: 150px;
+      height: 150px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #000;
+      padding: 2rem;
+    }
+
+    .about-text {
+      max-width: 50%;
+    }
+
+    .about-text h2 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .about-image {
+      width: 150px;
+      height: 150px;
+      background-color: #ccc;
+    }
+
+    .contact {
+      background-color: #AC8969;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .contact-box {
+      width: 150px;
+      height: 150px;
+      background-color: #424942;
+    }
+
+    .contact-text {
+      max-width: 50%;
+    }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid #000;
+      background-color: #eee;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .projects, .about, .contact {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .about-text, .contact-text {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Figma Link: https://www.figma.com/design/EyfL6SsCEy839qZqajpwHw/AME220?node-id=0-1&t=i9kc50Mq0b61mLMh-1 -->
+
+<header>MY PORTFOLIO</header>
+
+<section class="projects">
+  <div class="project-box"></div>
+  <div class="project-box"></div>
+  <div class="project-box"></div>
+</section>
+
+<section class="about">
+  <div class="about-text">
+    <h2>HI, I’M KHANAK</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+  <div class="about-image"></div>
+</section>
+
+<section class="contact">
+  <div class="contact-box"></div>
+  <div class="contact-text">
+    <h2>CONTACT ME</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <button>CONTACT</button>
+  </div>
+</section>
+
+<!-- Figma link  -->
+<p style="padding: 1rem; text-align: center; background: #222;">
+  <strong>Figma Link:</strong>
+  <a href="https://www.figma.com/design/EyfL6SsCEy839qZqajpwHw/AME220?node-id=0-1&t=i9kc50Mq0b61mLMh-1" target="_blank" style="color: #C5896F;">View Design</a>
+</p>
+
+</body>
+</html>
