@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Stencil Std';
+    src: url('fonts/StencilStd.otf') format('opentype');
+  }
+  
+  body {
+    background-color: #F5E9E0;
+    font-family: 'Anonymous Pro', monospace;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Stencil Std', serif;
+    font-size: 64px;
+    color: #5B2A0A;
+    text-transform: uppercase;
+  }
+  
+  button {
+    background-color: #81603E;
+    color: white;
+    font-size: 32px;
+    font-family: 'Anonymous Pro', monospace;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #coffeeDisplay {
+    margin-top: 2rem;
+  }
+  
+  #coffeeImage {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    display: none;
+    margin: 1rem auto;
+    display: block;
+  }
+  
+  #coffeeName {
+    margin-top: 1rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 64px;
+    color: #5B2A0A;
+  }
+  
+  #history {
+    margin-top: 3rem;
+  }
+  
+  #previousList {
+    display: none;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+    color: #413C3C;
+    font-size: 1.1rem;
+  }
+  
+  footer {
+    margin-top: 4rem;
+    color: #413C3C;
+    font-size: 0.9rem;
+  }
